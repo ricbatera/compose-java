@@ -19,7 +19,7 @@ services:
   web-front:
     image: nginx
     ports:
-      - '80:80'
+      - '81:80'
     links:
       - financeiro
     volumes:
